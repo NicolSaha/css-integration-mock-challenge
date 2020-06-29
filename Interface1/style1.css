@@ -1,0 +1,67 @@
+/*MAIN*/
+.pluginlist {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+img {
+  width: 70%;
+}
+
+h3 {
+  color: #8cbb96;
+}
+
+p {
+  color: #565656;
+}
+
+header,
+footer {
+  display: block;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  font-family: monospace;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.text {
+  width: 250px;
+}
+
+span {
+  font-family: monospace;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: baseline;
+}
+
+/* || Big Screens */
+@media screen and (min-width: 600px) {
+  header,
+  footer {
+    width: 100%;
+  }
+
+  .parent {
+    flex-flow: row wrap;
+  }
+}
+
+/* || Small Screens */
+@media screen and (max-width: 599px) {
+  .parent {
+    flex-flow: column wrap;
+  }
+}
