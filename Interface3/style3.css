@@ -45,7 +45,7 @@ h4 {
 }
 
 .info {
-  font-size: 0.79em;
+  font-size: 0.78em;
   display: inline-block;
 }
 
@@ -53,4 +53,11 @@ h4 {
   display: inline-block;
   width: 55px;
   height: 55px;
+  align-items: baseline;
+}
+
+.info {
+  line-height: 0.8;
+  margin-top: 10px;
+  margin-left: -20px;
 }
