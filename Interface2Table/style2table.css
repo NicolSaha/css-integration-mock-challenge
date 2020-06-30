@@ -1,0 +1,255 @@
+/*GENERAL*/
+html,
+body {
+  font-size: 1rem;
+  color: #dce7fa;
+  font-family: "Heebo", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+/*MAIN*/
+.container {
+  background-color: #548ee9;
+  border: solid 1px rgb(84, 142, 233);
+  box-shadow: 0px 0px 10px 5px rgb(237, 237, 237);
+  border-radius: 2px;
+  padding: 20px;
+  width: 320px;
+  height: 500px;
+  margin: 50px;
+}
+
+/*TEXT & COLOUR*/
+h1 {
+  font-size: small;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.users {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 0.8em;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+footer {
+  align-items: right;
+  text-align: right;
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 0.9em;
+}
+
+.realtime {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.goback {
+  display: block;
+  margin: 50px;
+}
+
+/*TABLE*/
+table {
+  font-size: 0.8em;
+  line-height: 2;
+  border-collapse: collapse;
+}
+
+th {
+  color: rgb(255, 255, 255, 0.55);
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  text-align: left;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+  width: 270px;
+  height: auto;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: right;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+  width: 50px;
+  height: auto;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+hr {
+  opacity: 0.6;
+  width: 359px;
+  margin-left: -20px;
+  color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255, 0.5);
+  border: none;
+  height: 1px;
+}
+
+.tablecontainer {
+  width: 290px;
+  height: 110px;
+  margin-top: 70px;
+}
+
+.chart {
+  font-size: 0.75em;
+  height: 1em;
+  list-style: none;
+  align-items: center;
+  justify-content: inherit;
+}
+
+.chart li {
+  position: relative;
+  float: left;
+  width: 8px;
+  margin: 0 0.1em;
+}
+
+.chart li a {
+  display: block;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.chart li .label {
+  display: block;
+  height: 8em;
+  position: absolute;
+  bottom: -2em;
+  line-height: 2em;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255, 0);
+}
+
+.day1 {
+  height: 30px;
+}
+
+.day2 {
+  height: 20px;
+}
+
+.day3 {
+  height: 25px;
+}
+
+.day4 {
+  height: 45px;
+}
+
+.day5 {
+  height: 29px;
+}
+
+.day6 {
+  height: 40px;
+}
+
+.day7 {
+  height: 40px;
+}
+
+.day8 {
+  height: 62px;
+}
+
+.day9 {
+  height: 49px;
+}
+
+.day10 {
+  height: 57px;
+}
+
+.day11 {
+  height: 39px;
+}
+
+.day12 {
+  height: 69px;
+}
+
+.day13 {
+  height: 52px;
+}
+
+.day14 {
+  height: 30px;
+}
+
+.day15 {
+  height: 42px;
+}
+
+.day16 {
+  height: 42px;
+}
+
+.day17 {
+  height: 33px;
+}
+
+.day18 {
+  height: 27px;
+}
+
+.day19 {
+  height: 53px;
+}
+
+.day20 {
+  height: 39px;
+}
+
+.day21 {
+  height: 49px;
+}
+
+.day22 {
+  height: 37px;
+}
+
+.day23 {
+  height: 42px;
+}
+
+.day24 {
+  height: 39px;
+}
+
+.day25 {
+  height: 26px;
+}
+
+.day26 {
+  height: 30px;
+}
+
+.day27 {
+  height: 38px;
+}
+
+.day28 {
+  height: 42px;
+}
+
+.day29 {
+  height: 40px;
+}
+
+.day30 {
+  height: 18px;
+}
