@@ -1,0 +1,78 @@
+html,
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*MAIN CSS*/
+
+img {
+  width: 144px;
+  height: 144px;
+}
+
+h3 {
+  color: #8cbb96;
+}
+
+p {
+  color: #565656;
+  line-height: 1.4;
+  margin-top: -8px;
+}
+
+header,
+footer {
+  text-align: center;
+  width: 100%;
+}
+
+code {
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: center;
+  align-items: center;
+  width: 250px;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* || Big Screens */
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* || Medium Screens */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* || Small Screens */
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

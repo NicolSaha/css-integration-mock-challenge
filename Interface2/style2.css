@@ -33,6 +33,11 @@ hr {
   background-color: rgb(220, 231, 250, 0.6);
 }
 
+.last {
+  width: 320px;
+  margin-left: -21px;
+}
+
 /*TEXT & COLOUR*/
 h1 {
   font-size: small;
