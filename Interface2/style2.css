@@ -84,3 +84,8 @@ footer {
   margin-top: 7px;
   font-size: 0.9em;
 }
+
+.goback {
+  display: block;
+  text-align: center;
+}
