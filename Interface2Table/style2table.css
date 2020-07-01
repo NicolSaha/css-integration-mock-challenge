@@ -96,16 +96,17 @@ hr {
 
 .tablecontainer {
   width: 290px;
-  height: 110px;
-  margin-top: 70px;
+  height: 65px;
+  margin-top: 60px;
 }
 
 .chart {
   font-size: 0.75em;
-  height: 1em;
+  width: 300px;
   list-style: none;
   align-items: center;
   justify-content: inherit;
+  margin-left: -25px;
 }
 
 .chart li {
